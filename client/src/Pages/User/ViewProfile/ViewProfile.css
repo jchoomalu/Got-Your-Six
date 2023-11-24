@@ -1,0 +1,19 @@
+.profile-round {
+  height: 220px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 25px black;
+}
+
+.profile {
+  min-height: 600px;
+}
+
+.card-img {
+  min-height: 600px;
+}
+
+@media screen and (max-width: 576px) {
+  .profile-round {
+    display: none;
+  }
+}

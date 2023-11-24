@@ -1,0 +1,36 @@
+.resources-card-overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0,0,0,.6);
+  border-radius: 15px;
+}
+
+.resources-header {
+  padding: 10px 10px 0px 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.resources-container {
+  box-shadow: 0px 0px 15px black;
+  padding: 35px;
+  margin-top: -10px;
+}
+
+.fed-desc {
+  text-align: center;
+  font-size: calc(8px + 1vmin);
+}
+
+.fed-img {
+  float: left;
+  height: 180px;
+  padding: 10px;
+  margin: 10px;
+  shape-outside: circle();
+}
+
+.clear {
+  clear: both;
+}
+
+

@@ -1,0 +1,82 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.main-card {
+  height: 350px;
+  margin: 10px 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: #efefef;
+  background-size: cover;
+  box-shadow: 0px 0px 20px rgb(40,40,40);
+}
+
+.panel {
+  height: 90px;
+  background-color: rgb(40,40,40, .65);
+  border-radius: 10px;
+  position: relative;
+  top: 73.5%;
+}
+
+.panel-link {
+  margin: 0px;
+  padding: 0px;
+}
+
+.panel-btn{
+  position: relative;
+  left: 75%;
+  top: -70px;
+  width: 120px;
+}
+
+.panel-title {
+  font-size: calc(10px + 2vmin);
+}
+
+.panel-desc {
+  margin-top: -15px;
+  max-width: 300px;
+}
+
+.modal-subtitle {
+  font-family: cursive;
+}
+
+.modal {
+  background-color: rgb(0,0,0, .65);
+  background-image: url('../../assets//images/homeModalBG2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.members-card {
+  background-image: url('../../../public/images/uniformHands.jpeg');
+}
+.reentry-card {
+    background-image: url('../../../public/images/businessBoots.jpeg');
+}
+.local-card {
+  background-image: url('../../../public/images/brotherhood.png');
+}
+.events-card {
+  background-image: url('../../../public/images/eventsSmall.jpeg');
+}
+.news-card {
+  background-image: url('../../../public/images/news.jpeg');
+}
+.stories-card {
+  background-image: url('../../../public/images/stories.jpeg');
+}
+
+
+@media screen and (max-width: 400px) {
+  .panel-btn {
+    top: -30px;
+    left: 170px;
+  }
+}

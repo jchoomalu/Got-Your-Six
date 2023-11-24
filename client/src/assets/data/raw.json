@@ -1,0 +1,16 @@
+{
+  "states": ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland",
+    "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania",
+    "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"],
+    "unknown": {
+      "_id": "64c802cd38e7db1b8f194faa",
+      "avatar" : "/static/media/justen.9a3597d0cf7134ffa2ae.jpeg"
+    },
+    "storyImages": [
+      "https://lightbox.tlm.cloud/uploads/small/eda59603592e8613f5cadb5715194517.jpeg",
+      "https://lightbox.tlm.cloud/uploads/small/3abd5933fdc78ba38a5c092008d8aad6.jpeg",
+      "https://lightbox.tlm.cloud/uploads/small/228acdd9bdd921fdc1444d440e295398.jpeg",
+      "https://lightbox.tlm.cloud/uploads/medium/1372e2f227002121e9ab74d62193a12f.jpeg",
+      "https://lightbox.tlm.cloud/uploads/medium/ab77d679c78369d19a7d1a018a8cac0e.jpeg"
+    ]
+}

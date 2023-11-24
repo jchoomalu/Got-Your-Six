@@ -1,0 +1,26 @@
+.stories-img {
+  height: 100px;
+}
+
+.create-story {
+  background-color: rgb(27,28,29);
+  margin-top: -10px;
+  margin: -10px auto;
+  padding: 5px;
+  width: 98.75%;
+}
+
+/* both story and main header style */
+#story-header {
+  background-color: rgb(27,28,29);
+  width: 98.5%;
+  max-width: 1600px;
+}
+
+@media screen and (max-width: 375px) {
+  #story-header {
+    position: relative;
+    left: 10px;
+    width: 390px;
+  }
+}

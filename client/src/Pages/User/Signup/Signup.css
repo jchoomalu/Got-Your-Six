@@ -1,0 +1,19 @@
+.existing-members {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.existing-btn {
+  width: 250%
+} 
+
+.logo-small {
+  height: 100px;
+  padding: 10px
+}
+
+.hidden {
+  display: none;
+}
+
+

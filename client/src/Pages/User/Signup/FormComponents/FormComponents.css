@@ -1,0 +1,65 @@
+.avatar-btn {
+  padding: 15px;
+  position: relative;
+  left: -25px;
+  top: 50px;
+}
+
+.hidden {
+  display: none
+}
+
+#fileInput {
+  display: none;
+}
+
+.top-card {
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  padding: 15px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px black;
+}
+
+.clicker {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: #0d6efd;
+  color: white;
+}
+
+.preview {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.clicker:hover {
+  background-color: #0a58ca
+}
+
+.ui.stacked.segment, .ui.segment {
+  background-image: url(../../../../assets/images/formBack.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 15px black;
+}
+
+@media screen and (max-width: 768px) {
+  .clicker {
+    height: 30px;
+    width: 150px;
+    border-radius: 15px;
+    margin: 10px;
+  }
+  .avatar-btn {
+    position: static;
+    height: 30px;
+    width: 150px;
+    margin: 10px;
+  }
+}

@@ -1,0 +1,33 @@
+.round {
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px black;
+  margin-top: 10px;
+}
+
+.user-info {
+  font-size: 1.5em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-top: 20px;
+  padding-left: 25px;
+}
+
+.user-details {
+  font-family: cursive;
+  font-size: 1.2rem;
+  padding-left: 25px;
+  margin-bottom: -2px;
+}
+
+.mini-img {
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px black;
+  height: 60px;
+  width: 60px;
+  float: left;
+}
+
+.user-box{
+  min-width: 300px;
+}
+

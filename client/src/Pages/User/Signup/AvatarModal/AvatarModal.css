@@ -1,0 +1,11 @@
+.avatar-thumb {
+  height: 140px;
+  width: 150px;
+}
+
+.avatar-thumb:hover {
+  position: relative;
+  height: 155px;
+  width: 165px;
+  border: 10px groove olivedrab;
+}

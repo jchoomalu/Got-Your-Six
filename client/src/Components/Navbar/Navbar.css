@@ -1,0 +1,23 @@
+body {
+  background-image: url(../../assets/images/starsLg.png);
+}
+
+.menu {
+  min-width: 390px;
+  width: 98.75%;
+  z-index: -1; 
+  padding: -10px;
+}
+
+.nav-wrapper {
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 375px) {
+  #root > div.wrapper.nav-wrapper.mx-auto > div.ui.inverted.menu.mx-2.shadow {
+    margin-top: 0px;
+    width: 105%;
+  }
+}
+

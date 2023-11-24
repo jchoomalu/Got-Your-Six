@@ -1,0 +1,23 @@
+.hidden {
+  display: none
+}
+
+.edit-preview {
+  height: 210px;
+  width:180px;
+  margin-left: 10px;
+}
+
+.select-icon {
+  position: relative;
+  top: -5px;
+  left: 12px;
+  color: #9f9f9f;
+}
+
+.placeholder-option {
+  margin-bottom: -25px !important;
+  padding-left: 35px !important;
+}
+
+

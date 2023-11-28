@@ -99,7 +99,8 @@ StyleCopReport.xml
 *.pidb
 *.svclog
 *.scc
-
+*.env
+server/.env
 
 # Chutzpah Test files
 _Chutzpah*

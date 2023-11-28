@@ -1,4 +1,4 @@
-import db from "../database/database.js"
+import db from "../database/database.js";
 
 async function addNewsSeeds() {
   const news = db.collection("news");

@@ -4,10 +4,11 @@ dotenv.config();
 //connects to the database using uri string from config file for security
 //displays connection confirmation in console
 import addEventSeeds from "../seeds/events.js"
-import addResources from "../seeds/resources.js";
+import addResourcesSeeds from "../seeds/resources.js";
 import addNewsSeeds from "../seeds/news.js";
 import addStorySeeds from "../seeds/stories.js";
 import addUserSeeds from "../seeds/users.js";
+import addClassifiedsSeeds from "../seeds/classifieds.js";
 //connects to the database using uri from config file
 //displays connection confirmation in console
 mongoose
@@ -17,11 +18,16 @@ mongoose
   })
   .then(() => {
     console.log("mongoose connected to gy6");
+    try {
     addEventSeeds();
-    addResources();
+    addResourcesSeeds();
     addNewsSeeds();
     addStorySeeds();
     addUserSeeds();
+    addClassifiedsSeeds()
+    } catch (error) {
+      console.log(error)
+    } 
   })
   .catch((error) => {
     console.error("Connection error", error.message);

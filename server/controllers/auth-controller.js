@@ -48,6 +48,7 @@ export const signin = async (req, res) => {
       return res.status(401).send({ error: "Invalid Password or Email" })
     }
     const token = newToken(user)
+    console.log(token)
     return res.status(201).send({ token })
   } catch (err) {
     res.status(400).json({ error: err })

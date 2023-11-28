@@ -7,7 +7,7 @@ import './Header.css'
 const Header = () => {
   //main header carousel showed on most pages 
   return (
-  <header className="mx-auto" id="story-header">
+  <header>
       <Carousel>
         <Carousel.Item>
           <img

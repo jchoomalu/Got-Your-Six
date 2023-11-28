@@ -1,7 +1,8 @@
 .carousel {
-  margin: 0px 10px 10px 0px;
+  margin: auto;
   height: 100px;
-  width: 100%;
+  border-radius: 15px;
+  width: 98.5%;
   color: black;
   background-color: rgb(27,28,29);
 }
@@ -17,7 +18,8 @@
 .overlay-carousel {
   position: relative;
   top: -100px;
-  width: 100%;
+  border-radius: 15px;
+  width: 98.5%;
   height: 100px;
   background-color: rgb(27,28,29,.6)
 }

@@ -1,12 +1,17 @@
 import jwt from 'jsonwebtoken'
+import dotenv from "dotenv";
+dotenv.config();
 
-//jwt middleware
 
 //CREATE TOKEN - called in the signin and signup functions
 export const newToken = user => {
-  return jwt.sign({ id: user.id }, config.jwtSecret, {
+  try {
+  return jwt.sign({ id: user.id }, process.env.jwtSecret, {
     expiresIn: process.env.jwtExpires
   })
+} catch (error) {
+  console.log(error)
+}
 }
 
 //VERIFY TOKEN - called in the verify function 
